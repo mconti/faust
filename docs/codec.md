@@ -62,7 +62,7 @@ E in ogni caso il suo costo è di circa 10 euro... un po' caro.
 ## il modulo Bluetooth
 Su aliexpress ci sono [questi moduli BLE](https://it.aliexpress.com/item/1005002662574939.html?spm=a2g0o.detail.100009.4.379b6c28jeFvWP&gps-id=pcDetailLeftTopSell&scm=1007.13482.271138.0&scm_id=1007.13482.271138.0&scm-url=1007.13482.271138.0&pvid=74b5358a-68f8-4293-9069-58fd29a824ff&_t=gps-id%3ApcDetailLeftTopSell%2Cscm-url%3A1007.13482.271138.0%2Cpvid%3A74b5358a-68f8-4293-9069-58fd29a824ff%2Ctpp_buckets%3A668%232846%238112%231997&pdp_npi=3%40dis%21EUR%213.28%212.17%21%21%21%21%21%40211b5e2016852702067385234e39a3%2112000030313006494%21rec%21IT%21769927963&gatewayAdapt=glo2ita) che costano 3 Euro.
 
-Se upgrade deve essere, allora bisognerebbe fare una prova di connessione tra questo modulo, il nostro microcontroller (visto che ha una BLE a bordo) e il flusso audio generato da faust!!
+Attenzione perchè vanno bene solo per il flusso in uscita, (no mic in) ma se upgrade deve essere, allora bisognerebbe fare una prova di connessione tra questo modulo, il nostro microcontroller (visto che ha una BLE a bordo) e il flusso audio generato da faust!!
 
 
 
