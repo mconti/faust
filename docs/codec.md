@@ -5,20 +5,13 @@ Faust genera codice C++ per molte piattaforme tra cui [Teensy](https://faustdoc.
 
 Per farlo, crea una serie di classi contenute in un solo file.cpp.
 
-Per funzionare su un embedded serve naturalmente n CoDec; un dispositivo hardware che contiene sia un ADC per l'acquisizione del segnale analogico, sia un DAC per la generazione del suono in uscita.
+Per funzionare su un embedded serve naturalmente un Codec; un dispositivo hardware che contiene sia un ADC (COdificatore) per l'acquisizione del segnale analogico, sia un DAC (DECodificatore) per la generazione del suono in uscita.
 
-Negli esempi forniti al 28 maggio 2023, si fa riferimento a due tipi di Codec: 
-- il WM
-
-[La scheda ESP32 Audio-Kit di Seeed Studio](https://www.mouser.it/ProductDetail/713-107990093)
- può essere acquista da mouser ma io non ci sono riuscito.
-
-
- Mouser mi ha risposto che l'ordine non poteva essere evaso:
+Negli esempi forniti (ad oggi, 28 maggio 2023), per quanto riguarda ESP32, si fa riferimento a due tipi di Codec montate su due schede ESP32 distinte: 
+- [La scheda TTGO-TAudio di LiLyGo](https://it.aliexpress.com/item/32846510254.html?gatewayAdapt=glo2ita) non più disponibile.
+- [La scheda ESP32 Audio-Kit di Seeed Studio](https://www.mouser.it/ProductDetail/713-107990093) dal costo di 17 Euro ma che mouser non esporta in Italia, o almeno,io non ci sono riuscito. Mouser infatti mi ha risposto che l'ordine non poteva essere evaso:
 
 Greetings,
-
-Thank you for returning the form.
 
 Unfortunately, the item on your purchase order has export restrictions imposed by the US Government and we are unable to ship this item to you. 
 
