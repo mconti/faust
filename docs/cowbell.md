@@ -1,4 +1,4 @@
-```faust
+```js
 declare name 		"mauriCowBell";
 declare version 	"1.0";
 declare author 		"Maurizio";
