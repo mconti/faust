@@ -21,9 +21,8 @@ We are unable to ship these item(s) to you and they have been removed from your 
 
 We apologize for any inconvenience this may have caused.
 
-Part Number                                      Quantity
-
-713-107990093                                  2
+- Part Number Quantity
+- 713-107990093  2
 
 
 If you would like us to assist in finding a substitute or to ship the remainder of your order, please contact your local customer service team for assistance.
