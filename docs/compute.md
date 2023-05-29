@@ -13,7 +13,7 @@ Nel caso precedende ad esempio questi campioni sono 32.
 
 Se portiamo il numero di campioni a 16, la durata scende in proporzione e abbiamo una durata di 45uS
 
-![Durata del metodo compute con 16 campioni](./images/DurataCompute vs Periodo 2.PNG)
+![Durata del metodo compute con 16 campioni](./images/DurataCompute vs Periodo 3.PNG)
 
 # Attenzione 1 !!
 
