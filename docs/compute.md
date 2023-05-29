@@ -21,10 +21,19 @@ Calcolare 16 campioni in un colpo solo, significa poi doverli inviare al DAC in 
 
 # Attenzione 2 !!
 
-Notare la frquenza di aggiornamento del DAC, in entrambi i casi risulta 1375 Hz. Da un rapido calcolo quindi troviamo che il sample rate del sistema è 16*1375 = 44.000
+Notare la frequenza di aggiornamento del DAC sul test point Frequency. 
+
+Nel caso 1 risulta 1375 Hz. Da un rapido calcolo quindi troviamo che il sample rate del sistema è 32*1375 = 44.000
+Nel caso 2 risulta 2750 Hz. Da un rapido calcolo quindi troviamo che il sample rate del sistema è 16*2750 = 44.000
 
 Quando istanziamo l'oggetto DSP di faust infatti il suo costruttore ci chiede il sample rate e la dimensione del buffer.
 
 ```js
-FLRCowBell FLRCow(44000, 32);
+FLRCowBell FLRCow(44000, 32);  // primo caso
+...
+FLRCowBell FLRCow(44000, 16);  // secondo caso
+
 ```
+
+A parità di sample rate (44.000), con un buffer che è la metà più piccolo, è necessario che la frequenza di aggiornamento del DAC (salvo errori di misura...) raddoppi.
+
