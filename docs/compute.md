@@ -14,3 +14,17 @@ Nel caso precedende ad esempio questi campioni sono 32.
 Se portiamo il numero di campioni a 16, la durata scende in proporzione e abbiamo una durata di 45uS
 
 ![Durata del metodo compute con 16 campioni](./images/DurataCompute vs Periodo 2.PNG)
+
+# Attenzione 1 !!
+
+Calcolare 16 campioni in un colpo solo, significa poi doverli inviare al DAC in una unica soluzione. Questo implica che il DAC abbia un buffer size congruo. 
+
+# Attenzione 2 !!
+
+Notare la frquenza di aggiornamento del DAC, in entrambi i casi risulta 1375 Hz. Da un rapido calcolo quindi troviamo che il sample rate del sistema è 16*1375 = 44.000
+
+Quando istanziamo l'oggetto DSP di faust infatti il suo costruttore ci chiede il sample rate e la dimensione del buffer.
+
+```js
+FLRCowBell FLRCow(44000, 32);
+```
