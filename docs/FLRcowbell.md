@@ -1,5 +1,5 @@
 ```js
-declare name 		"mauriCowBell";
+declare name 		"FLRCowBell";
 declare version 	"1.0";
 declare author 		"Maurizio";
 declare license 	"BSD";
