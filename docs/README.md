@@ -7,6 +7,7 @@
 
 ### Appunti
 [Il Codec](./codec.md)
+
 [Il file Cpp generato da Faust](./compute.md)
 
 
