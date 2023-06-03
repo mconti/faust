@@ -37,4 +37,4 @@ FLRCowBell FLRCow(44000, 16);  // secondo caso
 ```
 
 A parità di sample rate (44.000), con un buffer che è la metà più piccolo, è necessario che la frequenza di aggiornamento del DAC (salvo errori di misura...) raddoppi.
-
+![](./images/DurataCompute2.PNG)
